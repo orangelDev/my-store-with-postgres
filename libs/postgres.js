@@ -2,7 +2,7 @@ const { Client } = require('pg');
 
 async function getConnection() {
   const client = new Client({
-    host: 'localhost',
+    host: 'orangeldev.ml',
     port: 5432,
     user: 'orangeldev',
     password: 'admin123',
